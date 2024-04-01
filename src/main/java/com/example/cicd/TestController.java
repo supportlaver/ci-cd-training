@@ -18,6 +18,6 @@ public class TestController {
 
     @GetMapping("/api/test/jiwon/jiwon")
     public String test3() {
-        return "test is 33333";
+        return "test is 66666666";
     }
 }
