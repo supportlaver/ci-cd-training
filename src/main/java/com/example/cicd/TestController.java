@@ -15,4 +15,9 @@ public class TestController {
     public String test2() {
         return "test is JIWON2222222";
     }
+
+    @GetMapping("/api/test/jiwon/jiwon")
+    public String test3() {
+        return "test is 33333";
+    }
 }
