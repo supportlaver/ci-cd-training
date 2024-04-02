@@ -8,11 +8,11 @@ public class TestController {
 
     @GetMapping("/api/test")
     public String test() {
-        return "test is OK";
+        return "test is OK!!";
     }
 
     @GetMapping("/api/test/jiwon")
     public String test2() {
-        return "test is JIWON";
+        return "test is JIWON!!";
     }
 }
