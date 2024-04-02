@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/api/test")
     public String test() {
-        return "test is OK2222222";
+        return "test is OOKK";
     }
 
     @GetMapping("/api/test/jiwon")
