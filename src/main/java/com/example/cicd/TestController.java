@@ -13,11 +13,6 @@ public class TestController {
 
     @GetMapping("/api/test/jiwon")
     public String test2() {
-        return "test is JIWON2222222";
-    }
-
-    @GetMapping("/api/test/jiwon/jiwon")
-    public String test3() {
-        return "test is 66666666";
+        return "test is JIWONJIWON";
     }
 }
