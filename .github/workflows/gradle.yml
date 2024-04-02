@@ -17,9 +17,9 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   PROJECT_NAME: cicd
-  S3_BUCKET_NAME: github-actions-s3-bucket-jiwon
-  CODE_DEPLOY_APP_NAME: spring-boot-codedeploy-app
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: spring-boot-codedploy-deployment-group
+  S3_BUCKET_NAME: my-github-actions-s3-bucekt-jiwon
+  CODE_DEPLOY_APP_NAME: my-codedeploy-app
+  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: my-codedeploy-deployment-group
 
 permissions:
   contents: read
